@@ -65,6 +65,10 @@ Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang
 - Download URL: [Terbilang Excel Add-in](https://www.excelnoob.com/formula-ms-excel-terbaru-dalam-addin-udf/)
 
 
+### Lihat di YouTube
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1kTKdeGVxUI/0.jpg)](https://www.youtube.com/watch?v=1kTKdeGVxUI)
+
+
 ## Author
 [![Author](https://img.shields.io/badge/author-Andi%20B.%20Setiadi-lightgrey.svg?colorB=1D63DC&style=flat-square)]()
 
