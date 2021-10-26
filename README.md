@@ -1,5 +1,5 @@
 # Terbilang
-Fungsi Terbilang Excel digunakan untuk mengubah Nilai Angka (Number) menjadi Text terbilang.
+Fungsi Terbilang Excel digunakan untuk mengubah Nilai Angka (Number) menjadi Text terbilang dalam Bahasa Indonesia.
 
 ![alt text](images.PNG?raw=true "SC")
 
