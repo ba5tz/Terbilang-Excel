@@ -66,7 +66,7 @@ Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang
 
 
 ### Lihat di YouTube
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1kTKdeGVxUI/0.jpg)](https://www.youtube.com/watch?v=1kTKdeGVxUI)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VlFd-ZLX8G4/0.jpg)](https://www.youtube.com/watch?v=VlFd-ZLX8G4)
 
 
 ## Author
