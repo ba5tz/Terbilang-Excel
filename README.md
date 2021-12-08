@@ -1,5 +1,7 @@
 # Terbilang
-Fungsi Terbilang Excel digunakan untuk mengubah Nilai Angka (Number) menjadi Text terbilang dalam Bahasa Indonesia.
+Fungsi Terbilang Excel digunakan untuk mengubah Nilai Angka (Number) menjadi Text terbilang dalam Bahasa Indonesia. Misalnya 1500 menjadi "Seribu Lima Ratus"
+
+ada 3 Versi Terbilang yang bisa digunakan, Yaitu FORMULA, UDF dan ADD-IN, Berikut kelebihan dan kekurangan masing-masing
 
 ![alt text](images.PNG?raw=true "SC")
 
