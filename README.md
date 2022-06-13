@@ -68,7 +68,8 @@ Bagaimana jika angkanya ada koma? UDF diatas sudah dibuat agar lebih Flexible de
 
 ```=Terbilang(A1) & " Koma " & Terbilang(Mod(A1,1)*100)```
 
-```*10 = jika mau menampilkan 1 digit dibelakang koma
+```
+*10 = jika mau menampilkan 1 digit dibelakang koma
 *100 = Jika mau menampilkan 2 digit dibelakang koma
 *1000 = Jika mau menampilkan 3 digit dibelakang koma
 dst.
