@@ -71,7 +71,8 @@ Bagaimana jika angkanya ada koma? UDF diatas sudah dibuat agar lebih Flexible de
 ```*10 = jika mau menampilkan 1 digit dibelakang koma
 *100 = Jika mau menampilkan 2 digit dibelakang koma
 *1000 = Jika mau menampilkan 3 digit dibelakang koma
-dst.```
+dst.
+```
 
 ## Versi Add-in
 Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang digunakan. Terbilang bisa langsung digunakan dengan menuliskan Rumus =Terbilang(A1) jika Nilai berada di A1
