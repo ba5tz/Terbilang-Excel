@@ -64,6 +64,14 @@ MsgBox Err.Description, vbCritical, "Terbilang Error"
 End Function
 ```
 
+Bagaimana jika angkanya ada koma? UDF diatas sudah dibuat agar lebih Flexible dengan koma, sehingga komanya bisa diatur sendiri, rumus untuk menamilkan koma adalah 
+```=Terbilang(A1) & " Koma " & Terbilang(Mod(A1,1)*100)```
+
+``*10 = jika mau menampilkan 1 digit dibelakang koma
+*100 = Jika mau menampilkan 2 digit dibelakang koma
+*1000 = Jika mau menampilkan 3 digit dibelakang koma
+dst.```
+
 ## Versi Add-in
 Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang digunakan. Terbilang bisa langsung digunakan dengan menuliskan Rumus =Terbilang(A1) jika Nilai berada di A1
 - Download URL: [Terbilang Excel Add-in](https://www.excelnoob.com/formula-ms-excel-terbaru-dalam-addin-udf/)
