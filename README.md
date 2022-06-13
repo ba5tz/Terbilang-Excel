@@ -64,10 +64,11 @@ MsgBox Err.Description, vbCritical, "Terbilang Error"
 End Function
 ```
 
-Bagaimana jika angkanya ada koma? UDF diatas sudah dibuat agar lebih Flexible dengan koma, sehingga komanya bisa diatur sendiri, rumus untuk menamilkan koma adalah 
+Bagaimana jika angkanya ada koma? UDF diatas sudah dibuat agar lebih Flexible dengan koma, sehingga komanya bisa diatur sendiri, rumus untuk menampilkan koma adalah 
+
 ```=Terbilang(A1) & " Koma " & Terbilang(Mod(A1,1)*100)```
 
-``*10 = jika mau menampilkan 1 digit dibelakang koma
+```*10 = jika mau menampilkan 1 digit dibelakang koma
 *100 = Jika mau menampilkan 2 digit dibelakang koma
 *1000 = Jika mau menampilkan 3 digit dibelakang koma
 dst.```
