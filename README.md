@@ -90,4 +90,4 @@ Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang
 Thanks
     - More Info [setiadi.my.id](https://setiadi.my.id)
     - Formula terbilang By [KelasExcel.id](https://kelasexcel.id) 
-    - VBA Script Terbilang by [Excelnoob.com](https://excelnoob.com)
+    - VBA Script Terbilang by [vba.co.id](https://vba.co.id)
