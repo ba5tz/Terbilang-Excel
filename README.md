@@ -12,13 +12,13 @@ ada 3 Versi Terbilang yang bisa digunakan, Yaitu FORMULA, UDF dan ADD-IN, Beriku
 
 ## Terbilang Versi Formula 
 Ini adalah versi paling mudah, caranya cukup copy rumus ini ke B1, silahkan sesuaikan dengan Regional Setting Excel yang digunakan. Atau silahkan sesuaikan Range sesuai dengan lokasi nilai yang ingin diubah menjadi terbilang.
-### (Regional Setting Indonesia)
+#### (Regional Setting Indonesia)
 Pemisah Paramter rumus menggunakan ; (titik koma)
 ```js
 IF(A1=0;"nol";IF(A1<0;"minus ";"")& SUBSTITUTE(TRIM(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE( IF(--MID(TEXT(ABS(A1);"000000000000000");1;3)=0;"";MID(TEXT(ABS(A1);"000000000000000");1;1)&" ratus "&MID(TEXT(ABS(A1);"000000000000000");2;1)&" puluh "&MID(TEXT(ABS(A1);"000000000000000");3;1)&" trilyun ")& IF(--MID(TEXT(ABS(A1);"000000000000000");4;3)=0;"";MID(TEXT(ABS(A1);"000000000000000");4;1)&" ratus "&MID(TEXT(ABS(A1);"000000000000000");5;1)&" puluh "&MID(TEXT(ABS(A1);"000000000000000");6;1)&" milyar ")& IF(--MID(TEXT(ABS(A1);"000000000000000");7;3)=0;"";MID(TEXT(ABS(A1);"000000000000000");7;1)&" ratus "&MID(TEXT(ABS(A1);"000000000000000");8;1)&" puluh "&MID(TEXT(ABS(A1);"000000000000000");9;1)&" juta ")& IF(--MID(TEXT(ABS(A1);"000000000000000");10;3)=0;"";IF(--MID(TEXT(ABS(A1);"000000000000000");10;3)=1;"*";MID(TEXT(ABS(A1);"000000000000000");10;1)&" ratus "&MID(TEXT(ABS(A1);"000000000000000");11;1)&" puluh ")&MID(TEXT(ABS(A1);"000000000000000");12;1)&" ribu ")& IF(--MID(TEXT(ABS(A1);"000000000000000");13;3)=0;"";MID(TEXT(ABS(A1);"000000000000000");13;1)&" ratus "&MID(TEXT(ABS(A1);"000000000000000");14;1)&" puluh "&MID(TEXT(ABS(A1);"000000000000000");15;1));1;"satu");2;"dua");3;"tiga");4;"empat");5;"lima");6;"enam");7;"tujuh");8;"delapan");9;"sembilan");"0 ratus";"");"0 puluh";"");"satu puluh 0";"sepuluh");"satu puluh satu";"sebelas");"satu puluh dua";"duabelas");"satu puluh tiga";"tigabelas");"satu puluh empat";"empatbelas");"satu puluh lima";"limabelas");"satu puluh enam";"enambelas");"satu puluh tujuh";"tujuhbelas");"satu puluh delapan";"delapanbelas");"satu puluh sembilan";"sembilanbelas");"satu ratus";"seratus");"*satu ribu";"seribu");0;""));" ";" "))
 ```
 
-### (Regional Setting US)
+#### (Regional Setting US)
 Pemisah Paramter rumus menggunakan , (koma)
 ```js
 =IF(A1=0,"nol",IF(A1<0,"minus ","")& SUBSTITUTE(TRIM(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE( IF(--MID(TEXT(ABS(A1),"000000000000000"),1,3)=0,"",MID(TEXT(ABS(A1),"000000000000000"),1,1)&" ratus "&MID(TEXT(ABS(A1),"000000000000000"),2,1)&" puluh "&MID(TEXT(ABS(A1),"000000000000000"),3,1)&" trilyun ")& IF(--MID(TEXT(ABS(A1),"000000000000000"),4,3)=0,"",MID(TEXT(ABS(A1),"000000000000000"),4,1)&" ratus "&MID(TEXT(ABS(A1),"000000000000000"),5,1)&" puluh "&MID(TEXT(ABS(A1),"000000000000000"),6,1)&" milyar ")& IF(--MID(TEXT(ABS(A1),"000000000000000"),7,3)=0,"",MID(TEXT(ABS(A1),"000000000000000"),7,1)&" ratus "&MID(TEXT(ABS(A1),"000000000000000"),8,1)&" puluh "&MID(TEXT(ABS(A1),"000000000000000"),9,1)&" juta ")& IF(--MID(TEXT(ABS(A1),"000000000000000"),10,3)=0,"",IF(--MID(TEXT(ABS(A1),"000000000000000"),10,3)=1,"*",MID(TEXT(ABS(A1),"000000000000000"),10,1)&" ratus "&MID(TEXT(ABS(A1),"000000000000000"),11,1)&" puluh ")&MID(TEXT(ABS(A1),"000000000000000"),12,1)&" ribu ")& IF(--MID(TEXT(ABS(A1),"000000000000000"),13,3)=0,"",MID(TEXT(ABS(A1),"000000000000000"),13,1)&" ratus "&MID(TEXT(ABS(A1),"000000000000000"),14,1)&" puluh "&MID(TEXT(ABS(A1),"000000000000000"),15,1)),1,"satu"),2,"dua"),3,"tiga"),4,"empat"),5,"lima"),6,"enam"),7,"tujuh"),8,"delapan"),9,"sembilan"),"0 ratus",""),"0 puluh",""),"satu puluh 0","sepuluh"),"satu puluh satu","sebelas"),"satu puluh dua","duabelas"),"satu puluh tiga","tigabelas"),"satu puluh empat","empatbelas"),"satu puluh lima","limabelas"),"satu puluh enam","enambelas"),"satu puluh tujuh","tujuhbelas"),"satu puluh delapan","delapanbelas"),"satu puluh sembilan","sembilanbelas"),"satu ratus","seratus"),"*satu ribu","seribu"),0,""))," "," "))
@@ -80,7 +80,7 @@ Untuk versi Addin, silahkan download dan Install Addin pada Microsoft Excel yang
 - Download URL: [Terbilang Excel Add-in](https://www.excelnoob.com/formula-ms-excel-terbaru-dalam-addin-udf/)
 
 
-### Lihat di YouTube
+#### Lihat di YouTube
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/VlFd-ZLX8G4/0.jpg)](https://www.youtube.com/watch?v=VlFd-ZLX8G4)
 
 
