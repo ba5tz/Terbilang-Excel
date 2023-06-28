@@ -6,8 +6,11 @@ ada 3 Versi Terbilang yang bisa digunakan, Yaitu FORMULA, UDF dan ADD-IN, Beriku
 ![alt text](images.PNG?raw=true "SC")
 
 - [Versi Formula](#terbilang-versi-formula)
+      Pilih versi ini jika tidak ingin terkendala dengan Macro atau Addin yang terinstall di PC
 - [versi UDF](#terbilang-udf)
+      Pilih versi ini jika tidak ingin terkendala ketika FIle dibuka di beda PC yang belum tentu ada addin terbilang di PC tujuan
 - [Versi Addin](#versi-add-in)
+      Pilih versi ini jika ingin mudah dalam membuat terbilang.
 - [Author](#author)
 
 ## Terbilang Versi Formula 
