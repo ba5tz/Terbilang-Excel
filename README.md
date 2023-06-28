@@ -7,9 +7,9 @@ ada 3 Versi Terbilang yang bisa digunakan, Yaitu FORMULA, UDF dan ADD-IN, Beriku
 
 - [Versi Formula](#terbilang-versi-formula)
       Pilih versi ini jika tidak ingin terkendala dengan Macro atau Addin yang terinstall di PC
-- [versi UDF](#terbilang-udf)
+- [versi UDF](#Terbilang-Versi-UDF)
       Pilih versi ini jika tidak ingin terkendala ketika FIle dibuka di beda PC yang belum tentu ada addin terbilang di PC tujuan
-- [Versi Addin](#versi-add-in)
+- [Versi Addin](#Terbilang-Versi-Add-in)
       Pilih versi ini jika ingin mudah dalam membuat terbilang.
 - [Author](#author)
 
